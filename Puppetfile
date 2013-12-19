@@ -34,7 +34,7 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.0"
+#github "dnsmasq",    "1.0.0"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.2.5"
@@ -55,3 +55,42 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+
+#github "wkhtmltopdf" #don't use until QT broken on mavericks
+github "chrome"
+github "mysql"
+github "android",       "1.1.0"
+github "redis",         "2.1.0"
+github "dropbox"
+github "memcached",     "1.4.0"
+github "elasticsearch", "2.1.0"
+github "skype"
+github "heroku"
+github "virtualbox"
+github "flux"
+github "sequel_pro"
+github "vlc"
+github "utorrent"
+github "skitch"
+github "pgadmin3"
+github "gimp"
+github "sublime_text_2"
+github "spotify"
+github "cloudapp"
+github "imagemagick"
+github "wunderlist"
+github "keepassx"
+github "caffeine"
+github "firefox"
+github "gitx"
+#include gitx::l
+github "googledrive"
+github "handbrake"
+github "licecap"
+github "mplayerx"
+github "postgresapp"
+github "textmate"
+github "tunnelblick"
+
+
