@@ -74,7 +74,7 @@ node default {
 
   #personal:
   include openssl
-  include phantomjs::1_9_1
+  include phantomjs::1_9_0
   include pkgconfig
   include xquartz
 
