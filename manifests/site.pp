@@ -53,26 +53,71 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  include dnsmasq
+  # include dnsmasq
   include git
   include hub
   include nginx
 
   # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
+  # if $::root_encrypted == 'no' {
+  #   fail('Please enable full disk encryption and try again')
+  # }
 
   # node versions
-  include nodejs::v0_6
   include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions
   include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  #personal:
+  include openssl
+  include phantomjs::1_9_1
+  include pkgconfig
+  include xquartz
+
+  include mysql
+  mysql::db { 'mydb': }
+
+  include android::sdk
+  include android::ndk
+  include android::tools
+  include android::platform_tools
+  android::build_tools { '18.1.1': }
+  android::extra { 'extra-google-google_play_services': }
+  include android::doc
+  include android::studio
+  include redis
+  include dropbox
+  # include skype
+  include memcached
+  include elasticsearch
+  include heroku
+  include virtualbox
+  include flux
+  include sequel_pro
+  include vlc
+  include utorrent
+  include skitch
+  include pgadmin3
+  include gimp
+  include sublime_text_2
+  include spotify
+  include cloudapp
+  include imagemagick
+  include wunderlist
+  include caffeine
+  include firefox
+  include gitx::l
+  include googledrive
+  include handbrake
+  include licecap
+  include mplayerx
+  include postgresapp
+  include textmate
+  include tunnelblick
 
   # common, useful packages
   package {
