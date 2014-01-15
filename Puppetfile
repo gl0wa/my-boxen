@@ -92,5 +92,5 @@ github "mplayerx"
 github "postgresapp"
 github "textmate"
 github "tunnelblick"
-
+github "iterm2"
 
