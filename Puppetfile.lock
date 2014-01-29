@@ -1,12 +1,47 @@
 GITHUBTARBALL
+  remote: boxen/puppet-android
+  specs:
+    android (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
+  remote: boxen/puppet-caffeine
   specs:
-    dnsmasq (1.0.0)
+    caffeine (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cloudapp
+  specs:
+    cloudapp (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-elasticsearch
+  specs:
+    elasticsearch (2.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -19,14 +54,39 @@ GITHUBTARBALL
     gcc (2.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gimp
+  specs:
+    gimp (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-handbrake
+  specs:
+    handbrake (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-heroku
+  specs:
+    heroku (2.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -37,6 +97,46 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-imagemagick
+  specs:
+    imagemagick (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-keepassx
+  specs:
+    keepassx (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-licecap
+  specs:
+    licecap (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-memcached
+  specs:
+    memcached (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mplayerx
+  specs:
+    mplayerx (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -54,14 +154,29 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pgadmin3
+  specs:
+    pgadmin3 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.0.2)
+    phantomjs (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresapp
+  specs:
+    postgresapp (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -74,9 +189,64 @@ GITHUBTARBALL
     ruby (6.7.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sequel_pro
+  specs:
+    sequel_pro (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skitch
+  specs:
+    skitch (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.8)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-textmate
+  specs:
+    textmate (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-utorrent
+  specs:
+    utorrent (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wunderlist
+  specs:
+    wunderlist (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -94,23 +264,57 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  android (= 1.1.0)
   boxen (= 3.3.4)
-  dnsmasq (= 1.0.0)
+  caffeine (>= 0)
+  chrome (>= 0)
+  cloudapp (>= 0)
+  dropbox (>= 0)
+  elasticsearch (= 2.1.0)
+  firefox (>= 0)
+  flux (>= 0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
+  gimp (>= 0)
   git (= 1.2.5)
+  gitx (>= 0)
   go (= 1.0.0)
+  googledrive (>= 0)
+  handbrake (>= 0)
+  heroku (>= 0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
+  imagemagick (>= 0)
   inifile (= 1.0.0)
+  iterm2 (>= 0)
+  java (>= 0)
+  keepassx (>= 0)
+  licecap (>= 0)
+  memcached (= 1.4.0)
+  mplayerx (>= 0)
+  mysql (>= 0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
-  phantomjs (= 2.0.2)
+  pgadmin3 (>= 0)
+  phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
+  postgresapp (>= 0)
+  redis (= 2.1.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
+  sequel_pro (>= 0)
+  skitch (>= 0)
+  skype (>= 0)
+  spotify (>= 0)
   stdlib (= 4.1.0)
+  sublime_text_2 (>= 0)
   sudo (= 1.0.0)
+  textmate (>= 0)
+  tunnelblick (>= 0)
+  utorrent (>= 0)
+  virtualbox (>= 0)
+  vlc (>= 0)
+  wunderlist (>= 0)
   xquartz (= 1.1.0)
 
