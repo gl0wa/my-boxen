@@ -5,7 +5,7 @@
 # ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-ENV['BOXEN_REPO_NAME'] = 'git@bitbucket.org:gl0wa/boxen.git'
+ENV['BOXEN_REPO_NAME'] = 'gl0wa/my-boxen'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
